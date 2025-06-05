@@ -49,4 +49,9 @@ return {
 		"nvim-lualine/lualine.nvim",
 		dependencies = { "nvim-tree/nvim-web-devicons" },
 	},
+	{ "petertriho/nvim-scrollbar" },
+	{ "sidebar-nvim/sidebar.nvim", opts = {
+		open = false,
+	} },
+	{ "dnlhc/glance.nvim" },
 }
